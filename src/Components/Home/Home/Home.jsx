@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
 
             {/* Body Section */}
             <Banner></Banner>
-            <h2>Home Page</h2>
+            <Skills></Skills>
 
             {/* Footer */}
             {/* <Footer></Footer> */}

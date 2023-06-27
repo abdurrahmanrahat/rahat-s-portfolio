@@ -1,0 +1,62 @@
+[
+    {
+        "_id": "01",
+        "title": "HTML",
+        "image": "https://i.ibb.co/RbZR60z/html.png"
+    },
+    {
+        "_id": "02",
+        "title": "CSS",
+        "image": "https://i.ibb.co/mTP1xFv/css.png"
+    },
+    {
+        "_id": "03",
+        "title": "TailwindCSS",
+        "image": "https://i.ibb.co/vQL58jF/tailwind.png"
+    },
+    {
+        "_id": "04",
+        "title": "Bootstrap",
+        "image": "https://i.ibb.co/qnrWQ2C/bootstrap.png"
+    },
+    {
+        "_id": "05",
+        "title": "JavaScript",
+        "image": "https://i.ibb.co/DY3MPd8/javascript.png"
+    },
+    {
+        "_id": "06",
+        "title": "React js",
+        "image": "https://i.ibb.co/F3TvLfG/react.png"
+    },
+    {
+        "_id": "07",
+        "title": "Firebase",
+        "image": "https://i.ibb.co/MMbqb0R/firebase.png"
+    },
+    {
+        "_id": "08",
+        "title": "Express js",
+        "image": "https://i.ibb.co/m8xVgvw/express-removebg-preview.png"
+    },
+    {
+        "_id": "09",
+        "title": "Node js",
+        "image": "https://i.ibb.co/9YN9Zf1/node-Js-used.png"
+    },
+    {
+        "_id": "10",
+        "title": "Mongodb",
+        "image": "https://i.ibb.co/vXCKLNM/mongo-db.png"
+    },
+    {
+        "_id": "11",
+        "title": "Next js",
+        "image": "https://i.ibb.co/QmZ7pcw/nextJs.png"
+    },
+    {
+        "_id": "12",
+        "title": "Git & Github",
+        "image": "https://i.ibb.co/VQZ87Mk/new2-github.jpg"
+    }
+]

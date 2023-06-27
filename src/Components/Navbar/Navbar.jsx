@@ -6,7 +6,7 @@ const Navbar = () => {
 
     const navItems = <>
         <li className="md:mx-3"><ActiveLink to='/'>Home</ActiveLink></li>
-        <li className="md:mx-3"><ActiveLink to='/projects'>Projects</ActiveLink></li>
+        <li className="md:mx-3"><ActiveLink to='/skills'>Skills</ActiveLink></li>
         <li className="md:mx-3"><ActiveLink to='/projects'>Projects</ActiveLink></li>
     </>
 

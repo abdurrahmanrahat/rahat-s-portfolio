@@ -13,11 +13,11 @@ const Banner = () => {
                         <TypeAnimation
                             sequence={[
                                 'ReactJS Developer',
-                                1000,
+                                1500,
                                 'MERN-stack Developer',
-                                1000,
+                                1500,
                                 'Fronted Developer',
-                                1000,
+                                1500,
                             ]}
                             wrapper="span"
                             speed={50}
