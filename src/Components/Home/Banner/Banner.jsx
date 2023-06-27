@@ -1,5 +1,7 @@
 import { TypeAnimation } from 'react-type-animation';
 import bannerSVG from '../../../assets/code-in-table.svg';
+import RESUMEPDF from '../../../assets/rahmansResume.pdf';
+import { BiDownload } from "react-icons/bi";
 
 const Banner = () => {
     return (
@@ -24,7 +26,9 @@ const Banner = () => {
                         />
                     </span>
                     <p className='my-4'>I am a Front-End Developer currently focusing on mastering React JS and Next JS for expanding my skills to create dynamic and interactive web applications.</p>
-                    <span><button className='btn btn-md uppercase'>Resume</button></span>
+                    <span>
+                        <a href={RESUMEPDF} className='btn px-4 py-2 bg-white hover:bg-[#FEB000] text-black hover:text-white text-base 2xl:text-lg font-semibold rounded-lg shadow-md transition-colors duration-300 uppercase' download="rahman'sResume">Resume <BiDownload className='text-lg' /></a>
+                    </span>
                 </div>
                 <div className="md:w-1/2 flex justify-center items-center">
                     <img src={bannerSVG} className='w-full mt-20' alt="" />
