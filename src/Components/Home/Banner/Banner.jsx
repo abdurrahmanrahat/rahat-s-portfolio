@@ -40,8 +40,8 @@ const Banner = () => {
                         <a href={RESUMEPDF} className='btn px-4 py-2 bg-white hover:bg-[#FEB000] text-black hover:text-white text-base 2xl:text-lg font-semibold rounded-lg shadow-md transition-colors duration-300 uppercase' download="rahman'sResume">Resume <BiDownload className='text-lg' /></a>
                     </span>
                 </div>
-                <div className="md:w-1/2 flex justify-center items-center" data-aos="zoom-in-up">
-                    <img src={bannerSVG} className='w-full mt-20' alt="" />
+                <div className="md:w-1/2 flex justify-center items-center">
+                    <img src={bannerSVG} className='w-full mt-20' alt="" data-aos="zoom-in-up" />
                 </div>
             </div>
         </div>
