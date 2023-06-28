@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <div className="bg-[#1D1D1D] text-white text-center">
             <div className="max-w-screen-xl mx-auto p-4">
-                <h2 className="text-3xl font-semibold border-b-2 border-[#FEB000] md:w-1/6 mx-auto">About Me</h2>
+                <h2 className="text-3xl font-semibold border-b-2 border-[#FEB000] md:w-[12%] mx-auto">About Me</h2>
                 <div className='md:flex my-4'>
                     <div className='md:w-1/3'>
                         <img src={RahatPhoto} className='rounded p-4 mx-auto' alt="" />
