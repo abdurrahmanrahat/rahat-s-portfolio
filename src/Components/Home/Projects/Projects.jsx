@@ -7,9 +7,9 @@ import { VscServerProcess } from "react-icons/vsc";
 
 const Projects = () => {
     return (
-        <div className="bg-[#1D1D1D] text-white">
-            <div className="max-w-screen-xl mx-auto p-4 py-20">
-                <h2 className="text-3xl font-semibold border-b-2 border-[#FEB000] md:w-1/6 mx-auto text-center">What I Built</h2>
+        <div id='projects' className="bg-[#1D1D1D] text-white">
+            <div className="max-w-screen-xl mx-auto p-4 pt-20">
+                <h2 className="text-3xl font-semibold border-b-2 border-[#FEB000] w-[55%] md:w-[15%] mx-auto text-center">What I Built</h2>
                 <div className='my-10'>
                     {/* One */}
                     <div className='md:flex'>

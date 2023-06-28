@@ -5,7 +5,7 @@ import { BiDownload } from "react-icons/bi";
 
 const Banner = () => {
     return (
-        <div className="min-h-screen bg-[#1D1D1D]">
+        <div id='home' className="min-h-screen bg-[#1D1D1D]">
             <div className="max-w-screen-xl mx-auto text-white flex flex-col-reverse md:flex-row">
                 <div className="md:w-1/2 flex flex-col justify-center mt-16 p-4">
                     <h3 className='text-2xl'>Hi! I&apos;m Abdur Rahman Rahat</h3>

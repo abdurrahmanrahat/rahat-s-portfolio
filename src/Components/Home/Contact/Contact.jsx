@@ -1,11 +1,11 @@
 import { AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { FaArrowRight, FaGithub, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 import { SlLocationPin } from "react-icons/sl";
 import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <div className="bg-[#1D1D1D] text-white">
+        <div id="contact" className="bg-[#1D1D1D] text-white">
             <div className="max-w-screen-xl mx-auto p-4 md:flex py-10">
                 <div className="md:w-1/2">
                     <h2 className="text-3xl font-semibold border-b-2 border-white w-[38%] md:w-[22%]">Say Hello!</h2>
@@ -25,7 +25,7 @@ const Contact = () => {
                             <textarea name="massage" id="massage" cols="30" rows="3" className="w-full border border-gray-300 rounded px-3 py-2 bg-transparent"></textarea>
                         </div>
 
-                        <input type="submit" value="Send" className="bg-[#FEB000] text-white text-lg uppercase px-6 py-2 rounded hover:bg-[#161922] cursor-pointer" />
+                        <button type="submit" className="bg-[#FEB000] text-white text-lg uppercase px-6 py-2 rounded hover:bg-[#161922] cursor-pointer flex items-center gap-1" >Send <FaArrowRight /></button>
                     </form>
                 </div>
                 <div className="md:w-1/2 flex flex-col justify-center py-6 mt-8 md:mt-0 md:pl-24">
