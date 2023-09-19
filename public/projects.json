@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "01",
+    "projectName": "Job Recruiting-(Team Project)",
+    "projectImage": "https://i.ibb.co/xH3hDZL/job-Linker.jpg",
+    "features": {
+      "one": "Homepage with a banner, featured jobs, find seekers, blog, contact form and footer with some info. And also has some routes in Navbar.",
+      "two": "After login, users can select their role whether he or she is HR or Job Seeker then they can post as their role. then post data will go in Mongodb.",
+      "three": "In Dashboard, All will see their post specifically for manageing and here admin has various types of power to manage whole website."
+    },
+    "technology": "Next JS, Tailwind CSS with DaisyUI, Firebase, Toast, MongoDB, Git collaborate & Vercel",
+    "liveLink": "https://job-linker-seven.vercel.app/",
+    "git": "https://github.com/Galib24/JobLinker"
+  },
+  {
+    "_id": "02",
+    "projectName": "Foreign Language Learning School",
+    "projectImage": "https://i.ibb.co/kMQtk6Y/assignment-12.jpg",
+    "features": {
+      "one": "Homepage with a carousel banner, Instructors and Classes sections with an animation and some blogs",
+      "two": "Also has a login button, so that students can login & select their courses. After selecting, students will make payment for it via Stripe.",
+      "three": "In Dashboard, An admin has the authority to promote a student to the role of an instructor."
+    },
+    "technology": "React JS, Tailwind CSS(DaisyUI), Firebase, Express JS, Stripe, MongoDB",
+    "liveLink": "https://assignment-12-flls.web.app/",
+    "git": "https://github.com/abdurrahmanrahat/Assignment-12-client",
+    "git_server": "https://github.com/abdurrahmanrahat/Assignment-12-server"
+  },
+  {
+    "_id": "03",
+    "projectName": "College Admission Process",
+    "projectImage": "https://i.ibb.co/pywrdTz/college-project.jpg",
+    "features": {
+      "one": "Homepage with a carousel banner, top 3 colleges and graduate photos of students of these colleges and some research paper links with students' reviews.",
+      "two": "Also has 3 basic pages, here users can see some colleges and Admission route for admitting then see details in My College route that is protected.",
+      "three": "After user register, they can see photo in navbar. By clicking the image, user go to their details route."
+    },
+    "technology": "React JS, Tailwind CSS, DaisyUI, Sweetalert, Firebase, Express & Node JS, vercel & MongoDB.",
+    "liveLink": "https://college-client.web.app/",
+    "git": "https://github.com/abdurrahmanrahat/college-client",
+    "git_server": "https://github.com/abdurrahmanrahat/college-server"
+  }
+]

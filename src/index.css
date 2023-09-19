@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-row-reverse-class:nth-child(2n + 1) {
+  flex-direction: row-reverse;
+}
