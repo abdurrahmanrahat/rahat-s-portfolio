@@ -5,3 +5,7 @@
 .custom-row-reverse-class:nth-child(2n + 1) {
   flex-direction: row-reverse;
 }
+
+/* .hello:nth-child(2n+1){
+    flex-direction: row-reverse;
+} */
